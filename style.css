@@ -1,0 +1,542 @@
+body {
+background-color: #000;
+    overflow: hidden; /* Hide scrollbars */
+  }
+
+/* Header */
+.logo h1 {
+    color: #fff;
+    margin-left: 4vh;
+    padding-top: 1vh;
+}
+
+.logo h1:hover {
+    color: crimson;
+}
+
+.navbar {
+    margin-top: -6.6vh;
+}
+
+.navbar ul {
+    display: inline-flex;
+    margin-left: 50vw;
+}
+
+.navbar ul li {
+    margin-top: -46vh;
+    list-style: none;
+    padding-right: 2vw;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.navbar ul li a:hover {
+    color: crimson;
+}
+
+.navbar.sticky {
+    padding: 15px 0;
+    background: crimson;
+  }
+
+.navbar.sticky .logo a span{
+    color: #fff;
+}
+
+.navbar.sticky .menu li a:hover{
+    color: #fff;
+}
+/*Header end */
+
+/* Banner */
+.banner-content h1 {
+    color: #fff;
+    margin-top: -8vh;
+    margin-left: 3vw;
+    font-size: 2.5rem;
+    margin-bottom: 4vh;
+}
+
+.banner-content h1 span {
+    color: crimson;
+}
+
+.banner-content button {
+    margin-left: 3vw;
+    margin-top: -8vh;
+    font-size: 1.5rem;
+    width: 12vw;
+    height: 9vh;
+    color: #fff;
+    background-color: crimson;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.banner-content button:hover{
+    border: 2px solid crimson;
+    background-color: transparent;
+}
+
+.banner-image {
+    flex:1 1 42rem;
+    
+}
+.banner-image img{
+    height: 70vh;
+    width: 50vw;
+    margin-top: -50vh;
+    margin-left: 45vw;
+    border-radius: 30% 70% 70% 30% /30% 30% 70% 70%;
+}
+/* Banner end */
+
+/*About start */
+.about h1 {
+  color: #fff;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: -25vh;
+}
+
+.about h1 span {
+  color: crimson;
+}
+
+.information h1 {
+  color: #fff;
+  margin-left: -60vw;
+  margin-top: 7vh;
+  font-size: 2rem;
+}
+.name-box h4 {
+  color: grey;
+  margin-left: 10vw;
+  font-size: 1rem;
+  margin-top: -1vh;
+}
+
+.name-box p {
+  color: #fff;
+  margin-left: 14vw;
+  margin-top: -6vh;
+} 
+
+.age-box h4 {
+  color: grey;
+  margin-left: 10vw;
+  font-size: 1rem;
+}
+
+.age-box p {
+  color: #fff;
+  margin-left: 13vw;
+  margin-top: -5.7vh;
+}
+
+.email-box h4 {
+  color: grey;
+  margin-left: 10vw;
+  font-size: 1rem;
+}
+
+.email-box p {
+  color: #fff;
+  margin-left: 14vw;
+  margin-top: -6vh;
+}
+
+.address-box h4 {
+  color: grey;
+  margin-left: 10vw;
+  font-size: 1rem;
+}
+
+.address-box p {
+  color: #fff;
+  margin-left: 15vw;
+  margin-top: -6vh;
+}
+
+.skill-box h4 {
+  color: grey;
+  margin-left: 30vw;
+  font-size: 1rem;
+  margin-top: -23vh;
+}
+.skill-box p {
+  color: #fff;
+  margin-left: 34vw;
+  margin-top: -6vh;
+} 
+
+.language-box h4 {
+  color: grey;
+  margin-left: 30vw;
+  font-size: 1rem;
+  margin-top: 2vh;
+}
+
+.language-box p {
+  color: #fff;
+  margin-left: 36vw;
+  margin-top: -5.7vh;
+} 
+
+.click-btn button {
+  color: #fff;
+  background-color: crimson;
+  border-style: none;
+  margin-top: 14vh;
+  margin-left: 10vw;
+  height: 5vh;
+  width: 10vw;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+.click-btn button:hover {
+  border: 2px solid crimson;
+  background-color: transparent;
+}
+
+.content p {
+  color: #fff;
+  margin-left: 55vw;
+  margin-top: -35vh;
+  font-size: 1rem;
+}
+/*about end */
+
+/*skill start */
+.skill h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: -20vh;
+}
+
+.skill h1 span {
+    color: crimson;
+}
+
+.skill p {
+    color: #fff;
+    text-align: center;
+    margin-top: -2vh;
+}
+.skill p span {
+    color: crimson;
+}
+.skill-content p {
+    margin-left: -55vw;
+    margin-top: 5vh;
+    font-size: 1rem;
+    margin-bottom: -20vh;
+}
+
+skill-bars{
+  padding: 25px 30px;
+  width: 600px;
+  background: #fff;
+  box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+.skill-bars .bar{
+  margin: 20px 0;
+}
+.skill-bars .bar:first-child{
+  margin-top: 0px;
+}
+.skill-bars .bar .info{
+  margin-bottom: 5px;
+  color: white;
+  margin-left: 60vw;
+}
+.skill-bars .bar .info span{
+  font-weight: 500;
+  font-size: 17px;
+  opacity: 0;
+  animation: showText 0.5s 1s linear forwards;
+}
+@keyframes showText {
+  100%{
+    opacity: 1;
+  }
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 30%;
+  margin-left: 60vw;
+  background: #f0f0f0;
+  position: relative;
+  transform: scaleX(0);
+  transform-origin: left;
+  border-radius: 10px;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.05),
+              0 1px rgba(255,255,255,0.8);
+  animation: animate 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background: crimson;
+  animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
+}
+.bar .progress-line.html span{
+  width: 90%;
+}
+.bar .progress-line.css span{
+  width: 60%;
+}
+.bar .progress-line.javascript span{
+  width: 85%;
+}
+.bar .progress-line.photoshop span{
+  width: 75%;
+}
+.bar .progress-line.illustrator span{
+  width: 55%;
+}
+.progress-line span::before{
+  position: absolute;
+  content: "";
+  top: -10px;
+  right: 0;
+  height: 0;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+.progress-line span::after{
+  position: absolute;
+  top: -28px;
+  right: 0;
+  font-weight: 500;
+  background: #000;
+  color: #fff;
+  padding: 1px 8px;
+  font-size: 12px;
+  border-radius: 3px;
+  opacity: 0;
+  animation: showText2 0.5s 1.5s linear forwards;
+}
+@keyframes showText2 {
+  100%{
+    opacity: 1;
+  }
+}
+.progress-line.html span::after{
+  content: "90%";
+}
+.progress-line.css span::after{
+  content: "60%";
+}
+.progress-line.javascript span::after{
+  content: "85%";
+}
+.progress-line.photoshop span::after{
+  content: "75%";
+}
+.progress-line.illustrator span::after{
+  content: "55%";
+}
+/* skill end */
+
+/*contact start */
+.contact h1 {
+    text-align: center;
+    color: #fff;
+    margin-top: -32vh;
+    font-size: 3rem;
+}
+.contact h1 span {
+color: crimson;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:2rem;
+}
+.info-container{
+      width:40rem;
+}
+.info-container h1{
+font-size: 1.5rem;
+text-transform: uppercase;
+color:white;
+margin-top: -1vh;
+margin-left: -25vw;
+}
+
+.info-container p {
+font-size: 1rem;
+line-height: 2;
+color: white;
+padding:1rem 0;
+margin-left: 4.5vw;
+margin-top: -2vw;
+}
+
+.box-container{
+padding:2rem 0;
+}
+
+.box-1 {
+display: flex;
+gap:2rem;
+padding:1rem 0;
+}
+.box-1 i{
+font-size: 2rem;
+color:crimson;
+margin-top: -10vh;
+margin-left: 5vw;
+}
+
+.info-1 h3{
+font-size: 1.7rem;
+color:white;
+margin-top: -10vh;
+margin-left: -1vw;
+}
+
+.info-1 p{
+  font-size: 1rem;
+  color:white;
+  margin-left: -1vw;
+  margin-top: -7vh;
+  }
+
+.box-2 {
+display: flex;
+gap:2rem;
+padding:1rem 0;
+    }
+.box-2 i{
+font-size: 2rem;
+color:crimson;
+margin-top: -8vh;
+margin-left: 5vw;
+}
+    
+.info-2 h3{
+font-size: 1.7rem;
+color:white;
+margin-top: -8vh;
+margin-left: -1vw;
+}
+    
+.info-2 p{
+font-size: 1rem;
+color:white;
+margin-left: -1vw;
+margin-top: -7vh;
+}
+
+.box-3 {
+display: flex;
+gap:2rem;
+padding:1rem 0;
+}
+.box-3 i{
+font-size: 2rem;
+color:crimson;
+margin-top: -8vh;
+margin-left: 5vw;
+}
+  
+.info-3 h3{
+font-size: 1.7rem;
+color:white;
+margin-top: -8vh;
+margin-left: -1vw;
+}
+  
+.info-3 p{
+font-size: 1rem;
+color:white;
+margin-left: -1vw;
+margin-top: -7vh;
+}
+
+form{
+flex:1 1 42rem;
+}
+.inputBox{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.input{
+width:49%;
+}
+
+.inputBox input,
+      textarea{
+        border-radius: 5rem;
+        padding:1.2rem 1.8rem;
+        font-size: 1.4rem;
+        color:white;
+        text-transform: none;
+        background: #231F20;
+        border-style: none;
+      }
+.inputBox {
+  margin-top: -10vh;
+}
+
+.inputBox-1 input,
+      textarea{
+        border-radius: 5rem;
+        padding:1.2rem 1.8rem;
+        font-size: 1.4rem;
+        color:white;
+        text-transform: none;
+        background: #231F20;
+        border-style: none;
+      }
+
+.inputBox-1 {
+  margin-top: 2vh;
+}
+
+      textarea{
+        width:90%;
+        border-radius: 1rem;;
+        resize: none;
+        height: 5rem;
+        margin-top: 3vh;
+      }
+
+.btn{
+padding:1rem 3rem;
+cursor: pointer;
+background: crimson;
+border-style: none;
+margin-top: 3vh;
+border-radius: 10px;
+font-size: 1rem;
+}
+.btn:hover{
+background: white;
+color:black;
+}
