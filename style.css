@@ -78,6 +78,11 @@ background-color: #000;
     border-radius: 5px;
 }
 
+.banner-content button a {
+  color: #fff;
+  text-decoration: none;
+}
+
 .banner-content button:hover{
     border: 2px solid crimson;
     background-color: transparent;
